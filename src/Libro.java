@@ -29,4 +29,7 @@ public class Libro {
     public String toString() {
        return "El titulo es: "+getTitulo()+", Precio: "+getPrecio()+", Stock: "+getStock()+", Del Autor: "+autor.getNombre()+" "+autor.getApellido();
     }
+    public String mostrarCiertosAtributos() {
+        return  "El libro, "+getTitulo()+" de "+getAutor()+" Se vende a "+getPrecio()+" pesos.";
+    }
 }
